@@ -95,9 +95,10 @@ class Node implements Comparable<Node>
 Swing GUI 主程式：
 
 * 使用者介面
-* 事件處理
-* 路徑查詢
 * 節點新增
+* 輸入出發節點
+* 路徑查詢
+* 列出查詢節點到其他節點的最便宜機票路徑
 
 ---
 
@@ -139,7 +140,7 @@ Swing GUI 主程式：
 
 ### 程式語言
 
-* Java
+* Java 11
 
 ### GUI Framework
 
@@ -150,7 +151,8 @@ Swing GUI 主程式：
 建議版本：
 
 ```text
-JDK 8+
+<hr>
+JDK 8+ 
 ```
 
 ---
