@@ -151,7 +151,6 @@ Swing GUI 主程式：
 建議版本：
 
 ```text
-<hr>
 JDK 8+ 
 ```
 
