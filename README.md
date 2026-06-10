@@ -90,16 +90,6 @@ class Node implements Comparable<Node>
 
 ---
 
-#### DijkstraExample.java
-
-核心演算法實作：
-
-* Dijkstra 最短路徑
-* 路徑還原
-* 結果輸出
-
----
-
 #### UiEx1.java
 
 Swing GUI 主程式：
@@ -196,13 +186,14 @@ UiEx1.java
 ## 範例圖結構
 
 ```text
-0 --10-- 1
-|        |
-5        2
-|        |
-2 --9--- 3
+0 --(10)-- 1
+|          |
+(5)       (2)
+|          |
+2 --(9)--- 3
  \      /
-   2   4
+  (2) (4)
+   \  /
      4
 ```
 
@@ -224,7 +215,7 @@ UiEx1.java
 
 ## 作者
 
-Author: Your Name
+Author: ubenz55555
 
 Project: Dijkstra Shortest Path & Flight Price Comparison System
 
